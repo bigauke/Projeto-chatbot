@@ -113,7 +113,7 @@ def main():
 
         if response and str(response).lower in ['goodbye', 'bye']:
             st.write("Thank you for chatting with me. Have a great day!")
-            st.stop()
+            st.stop() 
 
 if __name__ == '__main__':
     main()
