@@ -94,6 +94,7 @@ def chatbot(input_text):
     for intent in intents:
         if intent['tag'] == tag:
             response = random.choice(intent['responses'])
+            return response
 
 
 counter = 0
@@ -110,7 +111,7 @@ def main():
         response = chatbot(user_input)
         st.text_area("Chatbot:", value=response, height=100, max_chars=None, key=f"chatbot_response_{counter}")
 
-        if response.lower() in ['goodbye', 'bye']:
+        if response and str(response).lower in ['goodbye', 'bye']:
             st.write("Thank you for chatting with me. Have a great day!")
             st.stop()
 
