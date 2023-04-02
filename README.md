@@ -5,9 +5,9 @@ Um chatbot end-to-end refere-se a um chatbot que pode lidar com uma conversa com
 
 Uma vez implantado, os usuários podem interagir com o chatbot enviando várias solicitações e o chatbot pode lidar com toda a conversa sozinho. Para criar um chatbot end-to-end usando Python, podemos seguir os passos mencionados abaixo:
 
-Definir intenções
-Criar dados de treinamento
-Treine o chatbot
-Crie o chatbot
-Teste o chatbot
-Implantar o chatbot
+### Definir intenções
+### Criar dados de treinamento
+### Treine o chatbot
+### Crie o chatbot
+### Teste o chatbot
+### Implantar o chatbot
